@@ -1,0 +1,28 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+OUTPUT_FILE: dirb_result.txt
+START_TIME: Thu Sep  4 04:31:24 2025
+URL_BASE: https://juice-shop.herokuapp.com/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612
+
+---- Scanning URL: https://juice-shop.herokuapp.com/ ----
++ https://juice-shop.herokuapp.com/assets (CODE:301|SIZE:156)
++ https://juice-shop.herokuapp.com/ftp (CODE:200|SIZE:11307)
++ https://juice-shop.herokuapp.com/profile (CODE:500|SIZE:1036)
++ https://juice-shop.herokuapp.com/promotion (CODE:200|SIZE:6586)
++ https://juice-shop.herokuapp.com/redirect (CODE:500|SIZE:2959)
++ https://juice-shop.herokuapp.com/robots.txt (CODE:200|SIZE:28)
++ https://juice-shop.herokuapp.com/video (CODE:200|SIZE:10075518)
++ https://juice-shop.herokuapp.com/Video (CODE:200|SIZE:10075518)
+
+-----------------
+END_TIME: Thu Sep  4 04:52:01 2025
+DOWNLOADED: 4612 - FOUND: 8
